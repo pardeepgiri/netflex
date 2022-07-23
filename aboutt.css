@@ -17,6 +17,10 @@
     width: 100%;
     z-index: 10;
 }
+
+.buttonfirst{
+    background-color: red;
+}
 .head-strip{
     align-items: flex-start;
     display: flex;
