@@ -1,0 +1,453 @@
+*{
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.strip{
+    background-color: transparent;
+    bottom: 0;
+    height: 5rem;
+    left: 0;
+    padding-left: 65px;
+    max-width: 1920px;
+    padding-top: 20px;
+    position: relative;
+    right: 0;
+    top: 0;
+    transition: background-color .5s;
+    width: 100%;
+    z-index: 10;
+}
+.head-strip{
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row nowrap;
+    height: auto;
+    justify-content: flex-start;
+    padding-top: 0.5rem;
+}
+
+.strip-span{
+    margin-right: auto;
+}
+.strip-div{
+    margin-right: 2rem;
+}
+.btn{
+    
+    margin-right: 2rem;
+}
+#language{
+    background-color: transparent;
+    padding: 8px;
+}
+.second{
+    background-color: black;
+    margin-top: 9rem;
+    position: relative;
+
+}
+.first{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url(https://i.pinimg.com/originals/67/99/88/6799886e301c323bc202fbdb72376531.jpg) no-repeat center center/cover ;
+    height: 728.4px;
+    
+}
+.shadow{
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+    bottom:-15;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.showcase-content{
+    position: relative;
+    margin: 0 26%;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: -35rem ;
+}
+.showcase-content h1{
+    font-weight: 700;
+    font-size: 64px;
+    margin: 0 30px;
+    max-width: 800px;
+    line-height: 74.5px;
+}
+.showcase-content h3{
+    color: white;
+    font-size: 25px;
+    margin: 16px 0;
+}
+.showcase-content p{
+    font-size: 19.2px;
+    font-weight: 300;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+}
+.showcase-content input{
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    left: 0;
+    bottom: -8vh;
+    width: 454px;
+    font-size: 1rem;
+    padding-left: .5rem;
+}
+.input-field{
+    display: flex;
+    flex-direction: row;
+}
+.getstarted{
+    background-color: red;
+    font-size: xx-large;
+    font-weight: 400;
+    font-family: revert;
+    border: 5px solid red;
+    width: auto;
+    height: 4.2rem;
+}
+.insidesecond{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.second{
+    padding: 70px 45px;
+    border-bottom: 8px solid #222;
+
+}
+.secpara{
+    flex: 0 1 auto;
+    height: 100%;
+    padding: 0 3rem 0 0;
+    width: 52%;
+    z-index: 3;
+    letter-spacing: 1px;
+}
+.sech1{
+    font-stretch: expanded;
+    font-weight: bolder;
+    font-size: -webkit-xxx-large;
+}
+.tv{
+    display:flex;
+    
+}
+.tv img{
+    position: absolute;
+}
+.tv video{
+    
+    width: 431px;
+    height: 396px;
+    padding-left: 68px;
+    margin-top: -17px;
+    padding-bottom: 1px;
+
+}
+.third{
+    background-color: black;
+    padding: 70px 45px;
+    border-bottom: 8px solid #222;
+    color: #fff;
+    
+}
+.h6{
+    color: blue;
+}
+.strange{
+    display: flex;  
+    
+    
+}
+.insidethird{
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.ttext{
+    padding: 0 0 0 3rem;
+}
+.tvideo{
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+    width: 48%;
+}
+.tphone{
+    margin: -8% 0 -4% -15%;
+    min-height: 100px;
+    width: 100%;
+}
+.tphone img{
+    height: 377px;
+    width: 536px;
+    margin-left: 52px;
+}
+.phonestrange{
+    padding: 0.5em 0.75em;
+    display: flex;
+    flex-flow: row;
+    margin-left: 151px;
+    margin-right: 46px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: -131px;
+    position: absolute;
+    background-color: black;
+}
+.phonestrange .img{
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 0 1em 0 0;
+}
+.gif{
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0.3em 0;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+.things{
+    font-size: 1em;
+}
+.img img{
+    width: 68px;
+    height: 88px;
+    margin-left: 1px;
+}
+.stragegif img{
+    height: 59px;
+    width: 59px;
+    margin-left: 40px;
+}
+.fourth{
+    padding: 70px 45px;
+    background-color: black;
+    border-bottom: 8px solid #222;
+    color: #fff;
+}
+.fourinside{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.fourinside .div1{
+    
+    width: 52%;
+    z-index: 3;
+    
+}
+.fourinside .div2{
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+    width: 48%;
+}
+.moniter{
+    margin: -5% -10% 0 0;
+    overflow: hidden;
+    position: relative;
+}
+.moniter img{
+    position: relative;
+    z-index: 2;
+    border: 0;
+    height: auto;
+    max-width: 100%;
+}
+.moniterdiv{
+    height: 100%;
+    left: 50%;
+    max-height: 47%;
+    max-width: 63%;
+    position: absolute;
+    top: 34%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.moniterdiv video{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.fifth{
+    background: black;
+    border-bottom: 8px solid #222;
+    padding: 50px 5%;
+}
+.fifthinside{
+    flex-flow: row-reverse;
+    align-items: center;
+    display: flex;
+}
+.cardtext{
+    padding: 0 3rem 0 0;
+    width: 52%;
+}
+.cardimg{
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+    width: 48%;
+}
+.cardtext h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+.cardtext h2{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.children{
+    overflow: hidden;
+    position: relative;
+}
+.children img{
+    border: 0;
+    height: auto;
+    max-width: 100%;
+}
+.six{
+    text-align: center;
+    background-color: black;
+    border-bottom: 8px solid #222;
+    margin-bottom: 0;
+    padding: 50px 5%;
+}
+.sixinside{
+    font-size: 1.625rem;
+}
+.sixinside h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+ul{
+    margin: 2em auto;
+    width: 75%;
+    margin: 1.25em auto;
+    max-width: 815px;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    margin: 0 0 8px;
+    margin-bottom: 5px;
+    margin-left: 1.1em;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+form{
+    margin: 0 auto;
+    max-width: 950px;
+    padding-top: 0.85rem;
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    border: 0;
+    font-weight: 400;
+    margin-bottom: 1px;
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    position: relative;
+    width: 100%;
+    background: #303030;
+    display: block;
+    text-align: left;
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+li div{
+    max-height: 0;
+    transition: max-height .25s cubic-bezier(.5,0,.1,1);
+    background: #303030;
+    display: block;
+    text-align: left;
+}
+svg{
+    transform: translateY(-50%) rotate(-45deg);
+    fill: #fff;
+    height: 1em;
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1em;
+}
+.span{
+    display: inline-block;
+    padding: 1.2em;
+}
+form h3{
+    font-size: 1.2rem;
+    max-width: none;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+form div{
+    display: flex;
+    flex-flow: row;
+}
+.red{
+    background: red;
+    height: 63px;
+    text-align: center;
+    font-size: 1.875rem;
+    min-height: 70px;
+}
+.footer{
+    background-color: black;
+}
+.footdiv{
+    
+    padding-bottom: 20px;
+}
+.footinsidediv{
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 90%;
+    padding-left: 19rem;
+}
+.footer-link{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    max-width: 1000px;
+}
+.footer-li{
+    list-style: none;
+    margin-left: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 16px;
+    min-width: 100px;
+    padding: 0 12px 0 0;
+    vertical-align: top;
+    width: 25%;   
+}
+.a{
+    color: #737373;
+}
